@@ -78,7 +78,7 @@ main{margin-top: 5rem;}
 .aligit-center{align-items: center;}
 .ta-wkcenter{text-align: -webkit-center;}
 
-
+/* HOME */
 /* BANNER */
 
 .banner{text-align: center;}
@@ -184,7 +184,7 @@ main{margin-top: 5rem;}
 }
 
 /* /VALUES */
-/* Lists */
+/* LISTS */
 
 .list{
     text-align: center;
@@ -196,11 +196,12 @@ main{margin-top: 5rem;}
 .list li{
     font-size: 1.5rem;
 }
-.list div div img{max-height: 95vh;}
+.list div div img{max-height: 90vh;}
 @media (min-width: 1200px){
     .list h2{font-size: 4.5rem;}
     .list h3{font-size: 2.25rem;}
     .list li{font-size: 2.25rem;}
 }
 
-/* /Lists */
+/* /LISTS */
+/* /HOME */
