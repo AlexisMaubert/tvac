@@ -5,7 +5,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="pages/choose.php">Apply</a>
-                </ul>
-            </li>
+                </li>
+            </ul>
         </nav>
 </header>
