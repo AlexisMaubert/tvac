@@ -11,7 +11,7 @@
         </div>
         <section class="presentation container">
             <div class="row jc-center aligit-center">
-                <div class="col-12 col-md-4">
+                <div class="col-11 col-md-4 tvac-box">
                     <h2>Who are we?</h2>
                 </div>
                 <div class="col-9 col-md-6 ta-wkcenter">
@@ -22,19 +22,20 @@
                 </div>
             </div>
         </section>
-        <section class="values">
-            <h2>Our <span class="fontcolors">core</span> values</h2>
-            <div class="container">
-                <div class="row" >
-                    <?php
+        <section class="values row jc-center">
+            <div class="col-lg-9">
+                <h2>Our <span class="fontcolors">core</span> values</h2>
+                <div class="container tvac-box">
+                    <div class="row">
+                        <?php
                         require_once '_values.php'
-                    ?>
+                        ?>
+                    </div>
                 </div>
-            </div>
         </section>
         <section class="list container-fluid">
-            <div class="">
-                <div>
+            <div class="row aligit-center">
+                <div class="col-md-7">
                     <h2>What we offer:</h2>
                     <ul>
                         <li>Work from anywhere</li>
@@ -47,17 +48,18 @@
                     </ul>
                     <h3>Top performers are making U$D 1500+ per month</h3>
                 </div>
-                <div class="">
-                <img src="resources/h_r_photo.jpg" alt="" class="img-fluid">
+                <div class="d-none d-md-block col-md-5">
+                    <img src="resources/h_r_photo.jpg" alt="photo 1" class="img-fluid tvac-box">
                 </div>
+            </div>
             </div>
         </section>
         <section class="list container-fluid">
-            <div class="">
-                <div>
-                    <img src="resources/l_h_photo.jpg" alt="" class="img-fluid">
+            <div class="row aligit-center">
+                <div class="d-none d-md-block col-md-6">
+                    <img src="resources/l_h_photo.jpg" alt="photo 2" class="img-fluid tvac-box">
                 </div>
-                <div>
+                <div class="col-md-6">
                     <h2>Requirements</h2>
                     <ul>
                         <li>Full time availability (43hs/week)</li>
