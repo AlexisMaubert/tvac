@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Glacial Indifference Regular'), url('../fonts/GlacialIndifference-Regular.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Glacial Indifference';
+    font-style: bold;
+    font-weight: normal;
+    src: local('Glacial Indifference Bold'), url('../fonts/GlacialIndifference-Bold.woff') format('woff');
+}
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+body{
+    color: #000000;
+    background-color: #ecc5c6;
+    font-family: nunito, Verdana, sans-serif;
+    margin: 0;
+}
+h2,h3{
+    font-family: Glacial Indifference;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #906777;
+}
+h2{font-size: 3rem;}
+h3{font-size: 1.5rem;}
+ul{
+    list-style: none;
+    padding: 0;
+}
+header.scrolled {
+    background-color: #c799a5 ;
+    box-shadow: 0px 0.3px 10px 0.6px #000000;
+}
+main{margin-top: 5rem;}
+.jc-center{justify-content:center;}
+.mar-auto{margin: auto;}
+.aligit-center{align-items: center;}
+.ta-wkcenter{text-align: -webkit-center};
+
+/* HEADER */
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: #ecc5c6;
+    transition: 0.5s ease;
+    z-index: 1;
+    width: 100%;
+}
+.navbar{
+    margin: auto;
+    width: 98%;
+    max-width: 1800px;
+}
+#logo {
+    height: 2.6rem;
+    width: auto;
+}
+.nav-link{
+    color: #000000;
+    transition: all 0.8s ease;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.nav-link:hover{color:#ffffff;}
+
+/* /HEADER */
+/* BANNER */
+
+.banner{text-align: center;}
+.banner img{
+    max-height: 850px;
+    width: auto;
+    border-radius: 3em;
+    box-shadow: 0.066rem 0.02rem 0.4rem 0.066rem #906777;
+    padding: 0;
+}
+
+/* /BANNER */
+/* UPBUTTON*/
+
+.upbutton{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 80%;
+}
+.upbutton.scrolled{
+    visibility: visible;
+    transition: all 2s;
+}
+.upbutton img{
+    height: 3rem;
+}
+
+/* /UPBUTTON */
+/* PRESENTATION */
+
+.presentation{
+    text-align: center;
+    margin: 5rem auto; 
+}
+.presentation video{
+    max-height: 95vh;
+    border-radius: 4em;
+    box-shadow: 0.066rem 0.02rem 0.4rem 0.066rem #906777;
+}
+@media (orientation: landscape){
+    .presentation video{
+        width: fit-content;
+    }
+}
+@media (min-width: 576px) , (max-width: 999px) and (orientation: landscape){
+    .presentation video{
+        border-radius: 2em;
+    }
+}
+@media (min-width: 576px) and (max-width: 999px){
+    .presentation video{
+        border-radius: 3.5em;
+    }
+}
+@media (min-width: 1000px) and (orientation: landscape){
+    .presentation video{
+        border-radius: 4em;
+    }
+}
+
+/* /PRESENTATION */
+/* VALUES */
+
+.values{
+    text-align: center;
+    margin: 5rem auto; 
+}
+.outside{
+    background-color: #906777;
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+    padding-top: 0.5rem;
+    margin: 0.5rem 0;
+}
+.inside{
+    background-color: #ecc5c6;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    margin: auto;
+}
+.number{
+    font-family: Glacial Indifference;
+    font-weight: bold;
+    color: #906777;
+    font-size: 2rem;
+}
+
+/* /VALUES */
+/* Lists */
+
+.list{
+    text-align: center;
+    margin: 3rem auto; 
+}
+.list ul{
+    margin: 3rem 2rem;
+}
+.list li{
+    font-size: 1.5rem;
+}
+/* /Lists */
