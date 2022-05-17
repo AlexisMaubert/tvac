@@ -60,7 +60,7 @@ header.scrolled{
 
 /* /NAV */
 
-h2,h3{
+h1,h2,h3{
     font-family: Glacial Indifference;
     font-weight: bold;
     text-transform: uppercase;
@@ -205,3 +205,122 @@ main{margin-top: 5rem;}
 
 /* /LISTS */
 /* /HOME */
+/* CHOOSE */
+
+#choose{
+    background-color: #000000;
+    text-align: center;
+}
+#choose header{
+    background-color: #000000;
+}
+#choose .nav-link{color: #ffffff;}
+#choose .nav-link:hover{color:#ecc5c6;}
+#choose h1{
+    color: #ecc5c6;
+    font-size: 2rem;
+}
+.ambassador_box{margin-top: 0.5rem;}
+.ambassador_box img{
+    padding: 0.3rem;
+    background-color: #906777; 
+    border-radius: 15rem;
+    height: auto;
+    transition: all 0.5s;
+}
+.ambassador_box h2{
+    margin-top: 1rem;
+    font-size: 1rem;
+    transition: all 0.5s ease-in;
+}
+.ambassador_box:hover img{
+    padding: 0.4rem;
+    background-color: #ecc5c6;
+}
+.ambassador_box:hover h2{ 
+    color: #ecc5c6;
+}
+@media (orientation:portrait) , (min-width: 768px) and (max-width: 991px) {
+    .ambassador_box{margin: 2rem 0;}
+    #choose h1{margin: 3rem 0;}
+}
+@media (min-width: 1200px) {
+    #choose h1{
+        margin: 7rem 0;
+        font-size: 4rem;
+    }
+    .ambassador_box{margin: 3rem 0;}
+}
+
+/* /CHOOSE */
+/* FORM */
+
+form{
+    background-color: #c799a5;
+    margin: auto;
+    padding: 2em 0em;
+    border-radius: 3em;
+    box-shadow: 1px 0.3px 6px 1px #906777;
+    text-align: center;
+}
+.tvac-form,
+.tvac-select,
+.tvac-check{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: right;
+}
+.tvac-form label{margin: 0;}
+@media (max-width: 575px) {
+    .tvac-form label{text-align: left !important;}
+}
+.tvac-form input{
+    background-color: #906777;
+    font-family: nunito;
+    color: #ffffff;
+}
+.tvac-form input:focus{
+    background-color: #906777;
+    color: #ffffff;
+}
+.tvac-form input::placeholder{
+    font-family: nunito;
+    font-size: 1.2rem;
+    color: #ffffff;
+    opacity: 80%;
+}
+input:-webkit-autofill, 
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px #906777 inset !important; 
+}
+input:-webkit-autofill {-webkit-text-fill-color: white !important;}
+.tvac-select select{
+    background-color: #906777;
+    font-family: nunito;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 2%;
+}
+.tvac-check legend{
+    text-align: center;
+    font-size: 1.2rem;
+}
+button{
+    background-color: #906777;
+    color: #ffffff;
+    font-family: nunito;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.invalid-feedback{
+    color: #906777;
+    font-family: nunito;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* /FORM */
+
