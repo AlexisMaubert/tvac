@@ -1,4 +1,5 @@
 <?php 
+    require_once('../helper/formvalidation.php');
     $valid = '<div class="valid-feedback"></div>';
 
     $formtext =[['label'=>'First Name', 'id'=>'name', 'input'=>'text'],
@@ -22,6 +23,7 @@
     
     echo '<div class="container-fluid row">
     <form action="send.php" method="get" class="needs-validation col-xl-7 col-sm-11 col-11" novalidate>
+    <input type="hidden" name="ambassador" value="'.$ambassador.'">
       <div>';
     $age = 16;  
     foreach ($formtext as $item) {
@@ -72,7 +74,7 @@
         }
     }
     echo '</div>
-          <button type="submit">Submit</button>
+          <button type="submit" name="send">Submit</button>
         </div>
       </form>
     </div>';
