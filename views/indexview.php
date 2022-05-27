@@ -4,7 +4,9 @@
     <?php require_once('_header.php') ?>
     <main>
         <section class="banner container-fluid">
-            <img src="resources/banner.png" alt="welcome image" class="img-fluid">
+            <div>
+                <h1>Join Us</h1>
+            </div>
         </section>
         <div class="upbutton">
             <a href="#"><img src="resources/back.png" alt="back to the top button" class="img-fluid"></a>
@@ -15,7 +17,7 @@
                     <h2>Who are we?</h2>
                 </div>
                 <div class="col-9 col-md-6 ta-wkcenter">
-                    <video muted class="embed-responsive">
+                    <video controls class="embed-responsive">
                         <source src="resources/tvac_video.mp4" type="video/mp4" class="tvac-video">
                         Your browser does not support the video tag.
                     </video>
