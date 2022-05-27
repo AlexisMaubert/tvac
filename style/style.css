@@ -144,6 +144,7 @@ main{margin-top: 5rem;}
     max-height: 90vh;
     border-radius: 2rem;
     box-shadow: 0.066rem 0.02rem 0.4rem 0.066rem #906777;
+    background-color: #ffffff;
 }
 @media (orientation: landscape){
     .presentation video{width: fit-content;}
