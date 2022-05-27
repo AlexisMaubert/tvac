@@ -19,7 +19,7 @@
     foreach ($ambassadors as $ambassador) {
         echo 
             '<div class="ambassador_box col-6 col-sm-4 col-xl-2">
-                <a href="tvacform.php?ambassador='.$ambassador['name'].$ambassador['lastname'].'"><img src="../resources/'.$ambassador['name'].$ambassador['lastname'].'.png" alt="" class="img-fluid"></a>
+                <a href="tvacform.php?ambassador='.$ambassador['name'].$ambassador['lastname'].'"><img src="../resources/'.strtolower($ambassador['name']).strtolower($ambassador['lastname']).'.png" alt="Ambassador photo" class="img-fluid"></a>
                 <h2>'.$ambassador['name'].' '.$ambassador['lastname'].'</h2>
             </div>';
     }    
