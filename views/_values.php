@@ -11,7 +11,7 @@
     
     foreach ($values as $value) {
         echo '
-        <div class="col-11 col-sm-5 row mar-auto aligit-center">
+        <div class="col-11 item col-sm-5 row mar-auto aligit-center">
             <div class="col-4">
                 <div class="outside">
                     <div class="inside">
@@ -27,7 +27,7 @@
         
         if ($value === $values['break']) {
             echo '
-            <div class="col-11 col-sm-6 col-md-5 row mar-auto aligit-center">
+            <div class="col-11 col-sm-6 col-md-5 item row mar-auto aligit-center">
                 <div class="col-4">
                     <div class="outside">
                         <div class="inside">

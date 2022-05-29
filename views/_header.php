@@ -24,7 +24,7 @@
             id="logo" class="d-sm-none img-responsive" alt="tvac logo" /></a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <?php echo ( isset($index) ) ? '<a class="nav-link" href="pages/choose.php">Apply</a>' : '<a class="nav-link" href="../index.php">Back</a>'?>
+                    <?php echo ( isset($index) ) ? '<a class="nav-link" href="'.BASE_URL.'pages/choose.php">Apply</a>' : '<a class="nav-link" href="'. BASE_URL.'/index.php">Back</a>'?>
                 </li>
             </ul>
         </nav>

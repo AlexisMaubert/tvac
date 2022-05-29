@@ -1,6 +1,4 @@
 <?php
-    $title = 'TVAC - Select you Ambassador';
-    $view ='choose';
     require_once('_head.php')
 ?>
 

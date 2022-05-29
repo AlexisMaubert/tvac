@@ -24,10 +24,10 @@
                 </div>
             </div>
         </section>
-        <section class="values row jc-center">
-            <div class="col-lg-9">
+        <section class="values row container jc-center">
+            <div class="col-lg-9 col-xl-12 tvac-box">
                 <h2>Our <span class="fontcolors">core</span> values</h2>
-                <div class="container tvac-box">
+                <div class="container">
                     <div class="row">
                         <?php
                         require_once '_values.php'

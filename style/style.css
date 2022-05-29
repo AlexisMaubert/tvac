@@ -167,6 +167,11 @@ main{margin-top: 5rem;}
     margin: 5rem auto;
     max-width: 1200px;
 }
+
+@media (min-width: 1200px){
+    .item{padding: 1.5rem 1rem;}
+}
+
 .outside{
     background-color: #906777;
     border-radius: 100%;
@@ -356,3 +361,28 @@ input:-webkit-autofill {-webkit-text-fill-color: white !important;}
 
 /* /FORM */
 
+/* Mail Sended */ 
+
+.sended h1{
+    font-size: 6rem;
+    color: #000000;
+}
+.sended h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+.sended p {
+    font-size: 2rem;
+    color: #906777;
+}
+.sended .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 575px) {
+    .sended h1{font-size: 4rem;}
+    .sended h2{font-size: 2rem;}
+    .sended p{font-size: 1rem;}
+}
