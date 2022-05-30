@@ -5,8 +5,7 @@ require_once('_header.php');
 
 <body  onLoad='redirect()'>
   <main>
-    <form method="post"  action="mailsended.php"class="needs-validation col-xl-7 col-sm-11 col-11" novalidate>
-      <input type="hidden" name="ambassadorform" value="<?php $ambassador ?>">
+    <form method="post"  action="mailsended.php" class="needs-validation col-xl-7 col-sm-11 col-11" novalidate>
       <div>
         <div class="form-group tvac-form row jc-center">
           <label for="name" class="col-sm-3 col-10">First Name</label>
